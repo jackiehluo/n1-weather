@@ -11,7 +11,9 @@
   },
   "description": "A little widget that gives you the weather.",
   "dependencies": {
-    "forecast": "^0.2.1"
+    "external-ip": "^0.2.4",
+    "forecast": "^0.2.1",
+    "geoip-lite": "^1.1.6"
   },
   "license": "MIT"
 }
