@@ -1,18 +1,19 @@
 import {React} from 'nylas-exports'
 import {RetinaImg} from 'nylas-component-kit'
 import WeatherStore from './weather-store'
+const emoji = require('node-emoji');
 
 const icons = {
-  "clear-day": "☀️",
-  "clear-night": "🌑",
-  "rain": "☔️",
-  "snow": "❄️",
-  "sleet": "❄️",
-  "wind": "💨",
-  "fog": "☁️",
-  "cloudy": "☁️",
-  "partly-cloudy-day": "⛅️",
-  "partly-cloudy-night": "☁️🌙"
+  "clear-day": emoji.get("sunny"),
+  "clear-night": emoji.get("crescent_moon"),
+  "rain": emoji.get("umbrella"),
+  "snow": emoji.get("snowflake"),
+  "sleet": emoji.get("snowflake"),
+  "wind": emoji.get("dash"),
+  "fog": emoji.get("foggy"),
+  "cloudy": emoji.get("cloud"),
+  "partly-cloudy-day": emoji.get("partly_sunny"),
+  "partly-cloudy-night": emoji.get("cloud") + emoji.get("crescent_moon")
 }
 
 class WeatherSidebar extends React.Component {
