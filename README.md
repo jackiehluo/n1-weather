@@ -9,3 +9,6 @@ A weather plugin for N1.
 3. Head to [Forecast](https://developer.forecast.io/) to get your own API key, then replace `'FORECAST_API_KEY'` in `weather-store.js`.
 4. On the N1 menu, select `Developer > Install a Package Manually...` from the dialog.
 5. Find the directory for this plugin to install it. :tada:
+
+You will need to be on a browser that supports emojis for the weather emojis to render properly!
+
