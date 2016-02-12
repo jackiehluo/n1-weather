@@ -1,6 +1,6 @@
 {
   "name": "weather",
-  "Title": "Weather",
+  "title": "Weather",
   "main": "./lib/main",
   "version": "0.1.0",
   "repository": {
