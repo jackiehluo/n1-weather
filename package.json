@@ -1,6 +1,6 @@
 {
-  "name": "Weather",
-  "displayName": "Weather",
+  "name": "weather",
+  "Title": "Weather",
   "main": "./lib/main",
   "version": "0.1.0",
   "repository": {
