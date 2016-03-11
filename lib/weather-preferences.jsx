@@ -43,4 +43,3 @@ class WeatherPreferences extends React.Component {
 }
 
 export default WeatherPreferences;
-

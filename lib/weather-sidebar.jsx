@@ -64,4 +64,3 @@ class WeatherSidebar extends React.Component {
 }
 
 export default WeatherSidebar;
-
